@@ -8,12 +8,11 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import PropTypes from 'prop-types';
 
+const hot_url = `${process.env.PUBLIC_URL}/images/hot_img.png`;
+const cold_url = `${process.env.PUBLIC_URL}/images/cold_img.png`;
+const rain_url = `${process.env.PUBLIC_URL}/images/rain_img.png`;
+
 export default function InfoBox({ info }) {
-
-    const hot_url = "hot_img.png";
-    const cold_url = "cold_img.png";
-    const rain_url = "rain_img.png";
-
     return (
         <div className="InfoBox">
             <div className='cardcontainer'>
