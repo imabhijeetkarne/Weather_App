@@ -13,6 +13,7 @@ const hot_url = "/images/hot_img.png";
 const cold_url = "/images/cold_img.png";
 const rain_url = "/images/rain_img.png";
 
+
 export default function InfoBox({ info }) {
     return (
         <div className="InfoBox">
