@@ -8,9 +8,10 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import PropTypes from 'prop-types';
 
-const hot_url = `${process.env.PUBLIC_URL}/images/hot_img.png`;
-const cold_url = `${process.env.PUBLIC_URL}/images/cold_img.png`;
-const rain_url = `${process.env.PUBLIC_URL}/images/rain_img.png`;
+
+const hot_url = "/images/hot_img.png";
+const cold_url = "/images/cold_img.png";
+const rain_url = "/images/rain_img.png";
 
 export default function InfoBox({ info }) {
     return (
